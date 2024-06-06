@@ -28,29 +28,29 @@ const CONFIG = {
         projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
-  //   external: {
-  //     header: 'My Projects',
-  //     // To hide the `External Projects` section, keep it empty.
-  //     projects: [
-  //       {
-  //         // title: 'Project Name',
-  //         // description:
-  //         //   'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-  //         // imageUrl:
-  //         //   'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-  //         // link: 'https://example.com',
-  //       },
-  //       {
-  //         // title: 'Project Name',
-  //         // description:
-  //         //   'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-  //         // imageUrl:
-  //         //   'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-  //         // link: 'https://example.com',
-  //       },
-  //     ],
-  //   },
-  // },
+    external: {
+      header: 'My Projects',
+      // To hide the `External Projects` section, keep it empty.
+      projects: [
+        {
+          // title: 'Project Name',
+          // description:
+          //   'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+          // imageUrl:
+          //   'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          // link: 'https://example.com',
+        },
+        {
+          // title: 'Project Name',
+          // description:
+          //   'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+          // imageUrl:
+          //   'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          // link: 'https://example.com',
+        },
+      ],
+    },
+  },
   seo: {
     title: 'Portfolio of Aditya Goswami',
     description: '',
@@ -93,30 +93,30 @@ const CONFIG = {
     'Sql',
     'Docker'
   ],
-  // experiences: [
-  //   {
-  //     company: 'Company Name',
-  //     position: 'Position',
-  //     from: 'September 2021',
-  //     to: 'Present',
-  //     companyLink: 'https://example.com',
-  //   },
-  //   {
-  //     company: 'Company Name',
-  //     position: 'Position',
-  //     from: 'July 2019',
-  //     to: 'August 2021',
-  //     companyLink: 'https://example.com',
-  //   },
-  // ],
-  // certifications: [
-  //   {
-  //     name: 'Lorem ipsum',
-  //     body: 'Lorem ipsum dolor sit amet',
-  //     year: 'March 2022',
-  //     link: 'https://example.com',
-  //   },
-  // ],
+  experiences: [
+    {
+      company: 'Company Name',
+      position: 'Position',
+      from: 'September 2021',
+      to: 'Present',
+      companyLink: 'https://example.com',
+    },
+    {
+      company: 'Company Name',
+      position: 'Position',
+      from: 'July 2019',
+      to: 'August 2021',
+      companyLink: 'https://example.com',
+    },
+  ],
+  certifications: [
+    {
+      name: 'Lorem ipsum',
+      body: 'Lorem ipsum dolor sit amet',
+      year: 'March 2022',
+      link: 'https://example.com',
+    },
+  ],
   educations: [
     {
       institution: 'Mittal International School',
@@ -131,26 +131,26 @@ const CONFIG = {
       to: '2025',
     },
   ],
-  // publications: [
-  //   {
-  //     title: 'Publication Title',
-  //     conferenceName: '',
-  //     journalName: 'Journal Name',
-  //     authors: 'John Doe, Jane Smith',
-  //     link: 'https://example.com',
-  //     description:
-  //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-  //   },
-  //   {
-  //     title: 'Publication Title',
-  //     conferenceName: 'Conference Name',
-  //     journalName: '',
-  //     authors: 'John Doe, Jane Smith',
-  //     link: 'https://example.com',
-  //     description:
-  //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-  //   },
-  // ],
+  publications: [
+    {
+      title: 'Publication Title',
+      conferenceName: '',
+      journalName: 'Journal Name',
+      authors: 'John Doe, Jane Smith',
+      link: 'https://example.com',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    },
+    {
+      title: 'Publication Title',
+      conferenceName: 'Conference Name',
+      journalName: '',
+      authors: 'John Doe, Jane Smith',
+      link: 'https://example.com',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    },
+  ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: '', // medium | dev
@@ -236,6 +236,6 @@ const CONFIG = {
     >GitProfile</a> and ❤️`,
 
   enablePWA: true,
-};
+}}
 
 export default CONFIG;
