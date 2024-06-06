@@ -152,19 +152,19 @@ const CONFIG = {
   //   },
   // ],
   // Display articles from your medium or dev account. (Optional)
-  blog: {
-    source: '', // medium | dev
-    username: '', // to hide blog section, keep it empty
-    limit:0 , // How many articles to display. Max is 10.
-  },
-  googleAnalytics: {
-    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
-  },
-  // Track visitor interaction and behavior. https://www.hotjar.com
-  hotjar: {
-    id: '',
-    snippetVersion: 6,
-  },
+  // blog: {
+  //   source: '', // medium | dev
+  //   username: '', // to hide blog section, keep it empty
+  //   limit:0 , // How many articles to display. Max is 10.
+  // },
+  // googleAnalytics: {
+  //   id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+  // },
+  // // Track visitor interaction and behavior. https://www.hotjar.com
+  // hotjar: {
+  //   id: '',
+  //   snippetVersion: 6,
+  // },
   themeConfig: {
     defaultTheme: 'lofi',
 
@@ -236,6 +236,6 @@ const CONFIG = {
     >GitProfile</a> and ❤️`,
 
   enablePWA: true,
-};
+}
 
 export default CONFIG;
